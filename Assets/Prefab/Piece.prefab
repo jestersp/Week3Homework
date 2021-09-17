@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6733987810133098457}
   - component: {fileID: 499284100989736725}
-  - component: {fileID: 6574771708197245249}
   - component: {fileID: 290634886895746792}
+  - component: {fileID: 5286228176099388494}
   m_Layer: 0
   m_Name: Piece
   m_TagString: Piece
@@ -84,26 +84,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6574771708197245249
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8077418168103428989}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4bdf3ec07ea5c245b4a6e4489916407, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  blueColor: {fileID: 2707577370330349663, guid: 8a1dc6f85b9a244479ac11b4b0b0897c, type: 3}
-  redColor: {fileID: -8192782701800089896, guid: 8a1dc6f85b9a244479ac11b4b0b0897c, type: 3}
-  greenColor: {fileID: -57110965404973480, guid: 8a1dc6f85b9a244479ac11b4b0b0897c, type: 3}
-  purpleColor: {fileID: -286672570409578572, guid: 8a1dc6f85b9a244479ac11b4b0b0897c, type: 3}
-  goldColor: {fileID: 6554549308691787351, guid: 8a1dc6f85b9a244479ac11b4b0b0897c, type: 3}
-  greyColor: {fileID: -9036120728189194214, guid: 8a1dc6f85b9a244479ac11b4b0b0897c, type: 3}
-  brownColor: {fileID: -4867482334217583439, guid: 8a1dc6f85b9a244479ac11b4b0b0897c, type: 3}
-  spriteRenderer: {fileID: 499284100989736725}
 --- !u!61 &290634886895746792
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -130,3 +110,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.16}
   m_EdgeRadius: 0
+--- !u!114 &5286228176099388494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8077418168103428989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4bdf3ec07ea5c245b4a6e4489916407, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorInt: 0
+  brickColor:
+  - {fileID: 2707577370330349663, guid: 8a1dc6f85b9a244479ac11b4b0b0897c, type: 3}
+  - {fileID: -57110965404973480, guid: 8a1dc6f85b9a244479ac11b4b0b0897c, type: 3}
+  - {fileID: -8192782701800089896, guid: 8a1dc6f85b9a244479ac11b4b0b0897c, type: 3}
+  - {fileID: -286672570409578572, guid: 8a1dc6f85b9a244479ac11b4b0b0897c, type: 3}
+  - {fileID: 6554549308691787351, guid: 8a1dc6f85b9a244479ac11b4b0b0897c, type: 3}
+  - {fileID: -9036120728189194214, guid: 8a1dc6f85b9a244479ac11b4b0b0897c, type: 3}
+  - {fileID: -4867482334217583439, guid: 8a1dc6f85b9a244479ac11b4b0b0897c, type: 3}
+  spriteRenderer: {fileID: 0}

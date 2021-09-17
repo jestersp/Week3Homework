@@ -3,7 +3,15 @@ guid: f4bdf3ec07ea5c245b4a6e4489916407
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - blueColor: {fileID: 2707577370330349663, guid: 8a1dc6f85b9a244479ac11b4b0b0897c, type: 3}
+  - redColor: {fileID: -8192782701800089896, guid: 8a1dc6f85b9a244479ac11b4b0b0897c, type: 3}
+  - greenColor: {fileID: -57110965404973480, guid: 8a1dc6f85b9a244479ac11b4b0b0897c, type: 3}
+  - purpleColor: {fileID: -286672570409578572, guid: 8a1dc6f85b9a244479ac11b4b0b0897c, type: 3}
+  - goldColor: {fileID: 6554549308691787351, guid: 8a1dc6f85b9a244479ac11b4b0b0897c, type: 3}
+  - greyColor: {fileID: -9036120728189194214, guid: 8a1dc6f85b9a244479ac11b4b0b0897c, type: 3}
+  - brownColor: {fileID: -4867482334217583439, guid: 8a1dc6f85b9a244479ac11b4b0b0897c, type: 3}
+  - spriteRenderer: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
