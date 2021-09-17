@@ -10,6 +10,7 @@ public class PieceColor : MonoBehaviour
 
     private void Awake()
     {
+        //randomly select number, set colors in array, set sprite to numbered array entry
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         colorInt = UnityEngine.Random.Range(0, 6);
         ChooseColor();

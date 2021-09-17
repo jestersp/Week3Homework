@@ -14,6 +14,7 @@ public class Paddle : MonoBehaviour
     // Update is called once per frame
     private void Start()
     {
+        //make a ball that follows the paddle when game starts
         ballSpawn = true;
     }
 
@@ -22,6 +23,7 @@ public class Paddle : MonoBehaviour
             if (ballSpawn)
             {
                 Instantiate(ballPrefab);
+            //prevent from repeating
             ballSpawn = false;
             }
         if (Input.GetKey(KeyCode.A))
@@ -33,7 +35,8 @@ public class Paddle : MonoBehaviour
         {
             transform.Translate(Vector3.right * Time.deltaTime * speed, Space.World);
         }
-
+        
+        //change borders of game
         var xPosition = Mathf.Clamp(transform.position.x, -8f, 8f);
         transform.position = new Vector3(xPosition, transform.position.y, transform.position.z);
     }

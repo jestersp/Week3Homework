@@ -14,6 +14,7 @@ public class OutOfBounds : MonoBehaviour
             {
             Debug.Log("Resetting...");
             Destroy(collision.gameObject);
+            //check for ball, destroy ball, then tell paddle to make a new one
             Player.GetComponent<Paddle>().ballSpawn = true;
         }
         //TODO: Implement functionality to reset the game somehow.
